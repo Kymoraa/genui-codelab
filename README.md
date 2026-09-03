@@ -3,7 +3,7 @@
 
 A ready-to-use development environment for the Intro to GenUI (https://codelabs.developers.google.com/codelabs/genui-intro#0) codelab. Opens directly in Project IDX — no local Flutter installation required.
 
-Open in IDX (https://cdn.idx.google.com/btn/open_in_idx.svg) (https://idx.google.com/import?url=https://github.com/Kymoraa/genui-codelab)
+Open in IDX: https://idx.google.com/import?url=https://github.com/Kymoraa/genui-codelab
 
 ---
 What you'll build
