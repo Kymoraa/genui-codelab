@@ -1,9 +1,10 @@
-# genui-codelab
-## Intro to GenUI with Flutter — DevFest Codelab
+genui-codelab
 
-A ready-to-use development environment for the Intro to GenUI (https://codelabs.developers.google.com/codelabs/genui-intro#0) codelab. Opens directly in Project IDX — no local Flutter installation required.
+Intro to GenUI with Flutter — DevFest Codelab
 
-Open in IDX: https://idx.google.com/import?url=https://github.com/Kymoraa/genui-codelab
+A ready-to-use development environment for the Intro to GenUI (https://codelabs.developers.google.com/codelabs/genui-intro#0) codelab. Opens directly in GitHub Codespaces — no local Flutter installation required.
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Kymoraa/genui-codelab)
 
 ---
 What you'll build
@@ -15,30 +16,29 @@ Before you start
 
 You'll need:
 
-- A Google account — used to sign into IDX and create a Firebase project
+- A GitHub account — used to sign into Codespaces (free, 60 hrs/month included)
+- A Google account — used to create a Firebase project
 - A Firebase project — you'll create this during the codelab (step 3)
 - No prior GenUI or MCP knowledge required
 - Intermediate Flutter experience is helpful but not essential
 
-▎ If you prefer to work locally, see Running locally (#running-locally) below.
-
 ---
-Using the IDX environment
+Using the Codespaces environment
 
-1. Click Open in IDX above and sign in with your Google account
-2. IDX will clone this repo and set up your environment — this takes about a minute
-3. When the workspace opens, Flutter upgrades to the required version automatically
-4. Open the terminal and follow the codelab from Step 2: Create the Flutter project
+1. Click Open in GitHub Codespaces above and sign in with your GitHub account
+2. Codespaces will build the container and set up Flutter, Dart, and the Firebase CLI — this takes about 2 minutes on first launch
+3. When the workspace opens, open the terminal and follow the codelab from Step 2: Create the Flutter project
+4. When you run the app (flutter run -d web-server --web-port 8080), a web preview opens automatically in a browser panel inside Codespaces
 
 The environment includes:
 - Flutter >= 3.35.7 (stable)
 - Dart >= 3.9
 - Firebase CLI
 - Flutter and Dart VS Code extensions
-- Web preview — your app appears in a browser panel inside IDX when you run it
+- Web preview — your app appears in a browser panel inside Codespaces when you run it
 
 ---
-## Running locally
+Running locally
 
 If you have the Flutter SDK installed and prefer to work locally:
 
@@ -55,4 +55,5 @@ Resources
 - Codelab: Intro to GenUI with Flutter (https://codelabs.developers.google.com/codelabs/genui-intro#0)
 - GenUI package on pub.dev (https://pub.dev/packages/genui)
 - Firebase AI Logic docs (https://firebase.google.com/docs/ai-logic)
-- Project IDX (https://idx.google.com)
+- GitHub Codespaces docs (https://docs.github.com/en/codespaces)
+
