@@ -1,0 +1,20 @@
+{
+  "name": "Flutter GenUI Codelab",
+  "image": "ghcr.io/cirruslabs/flutter:stable",
+  "postCreateCommand": "npm install -g firebase-tools && flutter upgrade",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Dart-Code.dart-code",
+        "Dart-Code.flutter"
+      ]
+    }
+  },
+  "forwardPorts": [8080],
+  "portsAttributes": {
+    "8080": {
+      "label": "Flutter Web App",
+      "onAutoForward": "openPreview"
+    }
+  }
+}
